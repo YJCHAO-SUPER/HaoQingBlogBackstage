@@ -75,7 +75,7 @@ class IndexController extends Controller
             $imgs[$i]->resize(300,300);
             $image[$i] = substr($image[$i],11);
             $imgs[$i]->save(storage_path("app\\public\\$date\\big\\$image[$i]"));
-            $imgs[$i]->resize(100,100);
+            $imgs[$i]->resize(150,150);
             $imgs[$i]->save(storage_path("app\\public\\$date\\mid\\$image[$i]"));
             $imgs[$i]->resize(50,50);
             $imgs[$i]->save(storage_path("app\\public\\$date\\sml\\$image[$i]"));
