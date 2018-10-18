@@ -39,6 +39,7 @@ class Article extends Model
         $insertArticle->content = $content;
         $insertArticle->category_id = $category;
         $insertArticle->save();
+
     }
 
 //    显示修改文章

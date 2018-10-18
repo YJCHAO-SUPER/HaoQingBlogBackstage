@@ -34,19 +34,18 @@
         <div class="sidebar-content">
             <ul class="sidebar-list">
                 <li>
-                    <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
+                    <a href="#"><i class="icon-font">&#xe003;</i>添加管理</a>
                     <ul class="sub-menu">
-                        <li><a href="/design"><i class="icon-font">&#xe008;</i>作品管理</a></li>
-                        
+                        <li><a href="/createRole"><i class="icon-font">&#xe046;</i>添加角色管理</a></li>
+                        <li><a href="/createManage"><i class="icon-font">&#xe046;</i>添加管理员管理</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#"><i class="icon-font">&#xe018;</i>系统管理</a>
+                    <a href="#"><i class="icon-font">&#xe018;</i>管理员模块</a>
                     <ul class="sub-menu">
-                        <li><a href="/system"><i class="icon-font">&#xe017;</i>系统设置</a></li>
-                        <li><a href="/system"><i class="icon-font">&#xe037;</i>清理缓存</a></li>
-                        <li><a href="/system"><i class="icon-font">&#xe046;</i>数据备份</a></li>
-                        <li><a href="/system"><i class="icon-font">&#xe045;</i>数据还原</a></li>
+                        <li><a href="/permissions"><i class="icon-font">&#xe017;</i>权限管理</a></li>
+                        <li><a href="/roles"><i class="icon-font">&#xe037;</i>角色管理</a></li>
+                        <li><a href="/administrators"><i class="icon-font">&#xe046;</i>管理员管理</a></li>
                     </ul>
                 </li>
             </ul>

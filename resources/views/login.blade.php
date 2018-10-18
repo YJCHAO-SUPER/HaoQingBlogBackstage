@@ -31,7 +31,7 @@
 							<div class="ececk_warning"><span>密码不能为空</span></div>
 
 							<input type="text" name="captcha" class="form-control" style="width: 300px;">
-							<a ><img src="{{ URL('/captcha2').'/'.rand(0,9999999) }}"  alt="验证码" title="刷新图片" width="100" height="40" border="0"></a>
+							<a ><img src="{{ URL('/captcha2').'?r='.rand(0,9999999) }}"  alt="验证码" title="刷新图片" width="100" height="40" border="0"></a>
 							<div class="form_check_ipt">
 								<div class="left check_left">
 									<label><input name="" type="checkbox"> 下次自动登录</label>

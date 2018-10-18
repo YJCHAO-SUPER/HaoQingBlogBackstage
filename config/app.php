@@ -151,6 +151,7 @@ return [
         Toplan\Sms\SmsManagerServiceProvider::class,
         Mrgoon\AliSms\ServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+        Zizaco\Entrust\EntrustServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -217,6 +218,7 @@ return [
         'PhpSms' => Toplan\PhpSms\Facades\Sms::class,
         'SmsManager' => Toplan\Sms\Facades\SmsManager::class,
         'Image' => Intervention\Image\Facades\Image::class,
+        'Entrust' => Zizaco\Entrust\EntrustFacade::class,
 
     ],
 
